@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="DT2PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>entidades.Encuesta</class>
+    <class>entidades.Paso</class>
+    <class>entidades.Perfil</class>
+    <class>entidades.Categoria</class>
+    <class>entidades.Asignacion</class>
+    <class>entidades.ApoyoSocial</class>
+    <class>entidades.TipoIndicador</class>
+    <class>entidades.PruebaDiagnostica</class>
+    <class>entidades.Profesional</class>
+    <class>entidades.NivelPaciente</class>
+    <class>entidades.Notificacion</class>
+    <class>entidades.Indicador</class>
+    <class>entidades.TipoMision</class>
+    <class>entidades.Pregunta</class>
+    <class>entidades.Mensaje</class>
+    <class>entidades.Tema</class>
+    <class>entidades.Paciente</class>
+    <class>entidades.TipoPregunta</class>
+    <class>entidades.Medicamento</class>
+    <class>entidades.Usuario</class>
+    <class>entidades.MisionPasoLogro</class>
+    <class>entidades.MisionPaciente</class>
+    <class>entidades.RecursoApoyo</class>
+    <class>entidades.Logro</class>
+    <class>entidades.Verificacion</class>
+    <class>entidades.Nivel</class>
+    <class>entidades.MisionTipoRecurso</class>
+    <class>entidades.Comentario</class>
+    <class>entidades.Mision</class>
+    <class>entidades.Habito</class>
+    <class>entidades.TipoRecurso</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://18.218.252.83:3306/dmt2_version4?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="UBosque2018"/>
+    </properties>
+  </persistence-unit>
+</persistence>

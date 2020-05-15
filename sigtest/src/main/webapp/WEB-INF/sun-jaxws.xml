@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+  <endpoint implementation="Servicios.Procesos" name="Procesos" url-pattern="/Procesos"/>
+  <endpoint implementation="Servicios.MisionWS" name="MisionWS" url-pattern="/MisionWS"/>
+  <endpoint implementation="Servicios.VerificacionPacienteWS" name="VerificacionRutinaWS" url-pattern="/VerificacionRutinaWS"/>
+</endpoints>
+ 

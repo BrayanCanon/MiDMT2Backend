@@ -1,0 +1,11 @@
+package logica;
+
+import entidades.Paciente;
+
+
+rule "My First Drools Rule"
+  when
+    $paciente:Paciente( getApellido()=="bermudez") 
+  then
+    $paciente.setMensaje("peligro");
+end

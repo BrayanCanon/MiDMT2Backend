@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="DT2PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>entidades.Paso</class>
+    <class>entidades.Usuario</class>
+    <class>entidades.Profesional</class>
+    <class>entidades.Asignacion</class>
+    <class>entidades.Perfil</class>
+    <class>entidades.RecursoApoyo</class>
+    <class>entidades.Medicamento</class>
+    <class>entidades.Encuesta</class>
+    <class>entidades.TipoPregunta</class>
+    <class>entidades.Indicador</class>
+    <class>entidades.MisionPaciente</class>
+    <class>entidades.Notificacion</class>
+    <class>entidades.Habito</class>
+    <class>entidades.ApoyoSocial</class>
+    <class>entidades.TipoRecurso</class>
+    <class>entidades.MisionTipoRecurso</class>
+    <class>entidades.TipoIndicador</class>
+    <class>entidades.NivelPaciente</class>
+    <class>entidades.PruebaDiagnostica</class>
+    <class>entidades.Mensaje</class>
+    <class>entidades.Pregunta</class>
+    <class>entidades.TipoEncuesta</class>
+    <class>entidades.MedicamentoMision</class>
+    <class>entidades.TratamientoPaciente</class>
+    <class>entidades.Tema</class>
+    <class>entidades.Comentario</class>
+    <class>entidades.Nivel</class>
+    <class>entidades.Paciente</class>
+    <class>entidades.Codusuario</class>
+    <class>entidades.Verificacion</class>
+    <class>entidades.Mision</class>
+    <class>entidades.Categoria</class>
+    <class>entidades.Logro</class>
+    <class>entidades.TipoMision</class>
+    <class>entidades.MisionPasoLogro</class>
+    <class>entidades.Mysequence</class>
+    <class>entidades.Gforms</class>
+    <class>entidades.RutinaPaciente</class>
+    <class>entidades.Rutina</class>
+    <class>entidades.VerificacionRutinaPaciente</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://91.121.72.151:3306/dmt2_version7?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="UBosque2018*"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+    </properties>
+  </persistence-unit>
+</persistence>
